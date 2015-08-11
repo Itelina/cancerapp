@@ -1,1 +1,1 @@
-web: gunicorn cancer:app --log-file=-
+web: gunicorn cancerapp:app --log-file=-
