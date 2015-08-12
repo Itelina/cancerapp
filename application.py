@@ -51,5 +51,5 @@ def score():
 
 # Start the app server on port 80
 # (The default website port)
-port = int(os.environ.get("PORT", 50000))
+port = int(os.environ.get("PORT", 33507))
 app.run(host='0.0.0.0', port=port)
